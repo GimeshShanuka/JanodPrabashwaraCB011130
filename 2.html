@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2.css">
+    <title>Enter Your Details</Details></title>
+
+     <body>
+      <nav>
+        <ul>
+            <li><a href="Hikk.html">Home</a></li>
+           
+            <li><a href="3.html">Tickets</a></li>
+            
+            <li><a href="2.html">Details</a></li>
+           
+            <li><a href="1.html">Payments</a></li>
+        
+            <li><a href="confirm.html">Confirmation</a></li>
+        </ul>
+    </nav>
+      <div class="j">
+      <h1>Buy Tickets</h1></div>
+        <div class="container">
+          <h2>Enter your details</h2>
+          <label for="fullName">Full Name*</label>
+          <input type="text" id="fullName" name="fullName" required>
+          <span class="error-message" id="fullNameError"></span>
+          
+          <label for="email">Email*</label>
+          <input type="email" id="email" name="email" required>
+          <span class="error-message" id="emailError"></span>
+          
+          <label for="confirmEmail">Confirm Email*</label>
+          <input type="email" id="confirmEmail" name="confirmEmail" required>
+          <span class="error-message" id="confirmEmailError"></span>
+          
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender">
+            <option value="">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+          <span class="error-message" id="genderError"></span>
+          
+          <label for="Telephone Number">Telephone :</label><br>
+          <input type="tel" name="phone">
+          <span class="error-message" id="phoneError"></span>
+          <button type="button" onclick="finishForm()">Finish</button>
+              <button type="button" onclick="submitForm()">Submit</button>
+
+
+              <div class="CP button">
+                <button><a href="1.html" class="purchase-link">Continue with Purchase</a></button>
+            </div>
+            </form>
+          
+            <div class="table">
+              <h2>Summary</h2>
+              <table id="summary-table" border="9">
+                <td>Name</td>
+                <td id="summary-name">-</td>
+                </tr>
+                <td>E-Mail</td>
+                <td id="summary-mail">-</td>
+                </tr>
+                <td>Gender</td>
+                <td id="summary-gender">-</td>
+                </tr>
+                <td>Telephone</td>
+                <td id="summary-telephone">-</td>
+                </tr>
+        <tr>
+        <tr>
+        <tr>
+            <tr>
+                  <tr>
+                    <td>Date</td>
+                      <td id="summary-date">-</td>
+                  </tr>
+                  <tr>
+                      <td>Time</td>
+                      <td id="summary-time">-</td>
+                  </tr>
+                  <tr>
+                      <td>Duration</td>
+                      <td id="summary-duration">-</td>
+                  </tr>
+                  <tr>
+                      <td>Tickets</td>
+                      <td id="summary-tickets">-</td>
+                  </tr>
+                  <tr>
+                      <td>Total Payable</td>
+                      <td id="summary-total">-</td>
+                  </tr>
+              </table>
+              </div>
+            <p id="errorMessage"></p>
+          </div>
+       
+        </div>
+       
+    </form>
+    <footer>
+      <div class="footer-content">
+          <p>&copy; Hikkaduwa Turtle Hatchery.All rights reserved.</p>
+      </div>
+  </footer>
+    <script src="S.js"></script>
+    <script src="international-telephone-input.js"></script>
+</body>
+</html>
